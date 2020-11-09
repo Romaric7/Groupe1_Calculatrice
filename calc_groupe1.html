@@ -19,8 +19,8 @@
               <button id="buttonUp" title="navigation haute"><i class="fa fa-chevron-circle-up fa-1x"></i></button>
               <button id="buttonOnOff" title="Bouton Marche/Arrêt"><strong>ON/OFF</strong></button>
               <button id="buttonAlpha" title="Options Alphanumériques"><strong>ALPHA</strong></button>
-              <button id="buttonLeft" title="navigation gauche"><i class="fa fa-chevron-circle-left fa-1x"></i></button>
-              <button id="buttonRight" title="navigation droite"><i class="fa fa-chevron-circle-right fa-1x"></i></button>
+              <button id="buttonLeft" title="navigation gauche"><i class="fa fa-chevron-circle-left fa-1x" style="left:105px"></i></button>
+              <button id="buttonRight" title="navigation droite"><i class="fa fa-chevron-circle-right fa-1x" style="left:105px"></i></button>
               <button id="buttonDown" title="navigation basse"><i class="fa fa-chevron-circle-down fa-1x"></i></button>
               <button id="logs" title="Bouton Reset"><i class="fa fa-modx"></i></button>
               <button id="buttonMode" title="Changement de mode"><strong>MODE</strong></button>
@@ -39,7 +39,7 @@
 
                 <!--Deuxième ligne  ypuissx,racine_carrée,x carré, x cube,log,ln-->
                 <button class="functionline2" title="y puissance x"><strong><var>y<sup> x</sup></var></strong></button>
-                <button class="functionline2" title="Racine carrée"><strong>&#x221A;</strong></button><!--&#x221A;  <math><msqrt><mn></mn></msqrt></math>-->
+                <button class="functionline2" title="Racine carrée" style="top:219px"><strong><math><msqrt><mn></mn></msqrt></math></strong></button><!--&#x221A;  <math><msqrt><mn></mn></msqrt></math>-->
                 <button class="functionline2" title="x puissance 2"><strong><var>x<sup> 2</sup></var></strong></button>
                 <button class="functionline2" title="x puissance 3"><strong><var>x<sup> 3</sup></var></strong></button>
                 <button class="functionline2" title="Logarithme en base 10"><strong>log</strong></button>
@@ -68,15 +68,15 @@
                 <button class="numericline2" title="Touche 4" style="font-size: 22px;"><strong>4</strong></button>
                 <button class="numericline2" title="Touche 5" style="font-size: 22px;"><strong>5</strong></button>
                 <button class="numericline2" title="Touche 6" style="font-size: 22px;"><strong>6</strong></button>
-                <button class="numericline2" title="Opérateur multiplication" style="font-size: 18px;width:35px; height:25px; top: 247px;"><strong>&#xD7; </strong></button> <!--&#xD7; &#215;-->
-                <button class="numericline2" title="Opérateur division" style="font-size: 18px;width:35px; height:25px; top: 247px;"><strong>&#xF7;</strong></button><!--&#xF7;  &#247;-->
+                <button class="numericline2" title="Opérateur multiplication" style="font-size: 18px;width:35px; height:25px; top: 247px;"><strong><i class="fa fa-times"></i></strong></button> <!--&#xD7; &#215;-->
+                <button class="numericline2" title="Opérateur division" style="font-size: 22px;width:35px; height:25px; top: 251px;"><strong>&#xF7;</strong></button><!--&#xF7;  &#247;-->
 
                      <!--Troisième ligne 1,2,3,+,- -->
                 <button class="numericline3" title="Touche 1" style="font-size: 22px;"><strong>1</strong></button>
                 <button class="numericline3" title="Touche 2" style="font-size: 22px;"><strong>2</strong></button>
                 <button class="numericline3" title="Touche 3" style="font-size: 22px;"><strong>3</strong></button>
-                <button class="numericline3" title="Opérateur addition" style="font-size: 18px;width:35px; height:25px; top: 255px;"><strong>+</strong></button>
-                <button class="numericline3" title="Opérateur soustraction" style="font-size: 18px;width:35px; height:25px; top: 255px;"><strong>-</strong></button>
+                <button class="numericline3" title="Opérateur addition" style="font-size: 18px;width:35px; height:25px; top: 255px;"><strong><i class="fa fa-plus"></i></strong></button>
+                <button class="numericline3" title="Opérateur soustraction" style="font-size: 18px;width:35px; height:25px; top: 255px;"><strong><i class="fa fa-minus"></i></strong></button>
             
                  <!--Quarième ligne 0,.,+/-,= -->
                  <button class="numericline4" title="Touche 0" style="font-size: 22px;"><strong>0</strong></button>
@@ -86,8 +86,49 @@
                  
             
             </div>
+
+                    <!--Indicateurs de touches-->
+
+                    <strong><span id="hex" style="color: rgb(210, 207, 30); font-size: 13px; border-radius: 3px;top: 365px; left: -10px; position: absolute; height: 11px; width: 36px;"><var>n!</var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:408px; left: 25px;"><var style="font-size: 11px;">&#8721;xy</var></span></strong>
+
+            <span id="hex" style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 371px; left: 181px; position: absolute; height: 11px; width: 34px;">&nbsp;<i class="fa fa-arrow-right"></i>HEX</span>
+
+                <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:369px; left: 216px;">C</span></strong>
+
+            <span id="hex" style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 371px; left: 229px; position: absolute; height: 11px; width: 33px;">&nbsp;<i class="fa fa-arrow-right"></i>BIN</span>
+
+            <strong><span id="hex" style="color: rgb(210, 207, 30); font-size: 14px; border-radius: 3px;top: 408px; left: -11px; position: absolute; height: 13px; width: 36px;">%</span></strong>
+
+            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:408px; left: 25px;"><var style="font-size: 11px;">&#8721;xy</var></span></strong>
+
+            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:408px; left: 95px;"><var style="font-size: 11px;">&#8721;y</var></span></strong>
+
+            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:408px; left: 157px;"><var style="font-size: 11px;">&#8721;y<sup>2</sup></var></span></strong>
+
+                <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 12px; position: absolute; top:368px; left: 264px;">r</span></strong>
+
+            <span id="hex" style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 415px; left: 181px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>DEC</span>
+
+            <span id="hex" style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 415px; left: 229px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>OCT</span>
+
+            <strong><span id="hex" style="color: rgb(210, 207, 30); font-size: 11px; border-radius: 3px;top: 453px; left: -13px; position: absolute; height: 11px; width: 36px;">MDF</span></strong>
+
+            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:453px; left: 34px;"><var style="font-size: 12px;">n</var></span></strong>
+
+            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:452px; left: 95px;"><var style="font-size: 11px;">&#8721;x</var></span></strong>
+
+            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:451px; left: 158px;"><var style="font-size: 11px;">&#8721;x<sup>2</sup></var></span></strong>
+
+            <span style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 458px; left: 183px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>PEN</span>
+
+            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:458px; left: 237px;">ANS</span></strong>
        </div>
 
-           
+       <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 20px; position: absolute; top:368px; left: 264px;"><var style="font-size: 12px;">&#8721;x</var></span></strong>
+
+       <span id="hex" style="color: rgb(210, 207, 30); font-size: 12px; border-radius: 3px;top: 458px; left: 183px; position: absolute; height: 11px; width: 36px;"><var>n!</var></span>
+       
 </body>
 </html>
