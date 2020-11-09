@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/calc_groupe1.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>GroupeISHARPCalc</title>
 </head>
 <body>
     <!--Corps principal de la calculatrice-->
@@ -28,9 +28,66 @@
               <button id="buttonDel" title="Bouton de suppression"><strong>DEL</strong></button>
 
             <!--Définition des blocs de boutons de fonction prédéfinies-->
+            <div id="buttonfunction">
+                            <!--Première ligne hyp,sin,cos,tan,pi,DRG-->
+                <button class="functionline1" title="Fonctions hyperboliques" style="font-size: 11px;"><strong>hyp</strong></button>
+                <button class="functionline1" title="Fonction sinus" style="font-size: 11px;"><strong>sin</strong></button>
+                <button class="functionline1" title="Fonction cosinus" style="font-size: 11px;"><strong>cos</strong></button>
+                <button class="functionline1" title="Fonction tangente" style="font-size: 11px;"><strong>tan</strong></button>
+                <button class="functionline1" title="Valeur pi=3.14" style="font-size: 11px;"><strong>&#8719</strong></button>
+                <button class="functionline1" title="Angles {Dégré,Radian,Gradient}" style="font-size: 11px;"><strong>DRG</strong></button>
+
+                <!--Deuxième ligne  ypuissx,racine_carrée,x carré, x cube,log,ln-->
+                <button class="functionline2" title="y puissance x"><strong><var>y<sup> x</sup></var></strong></button>
+                <button class="functionline2" title="Racine carrée"><strong>&#x221A;</strong></button><!--&#x221A;  <math><msqrt><mn></mn></msqrt></math>-->
+                <button class="functionline2" title="x puissance 2"><strong><var>x<sup> 2</sup></var></strong></button>
+                <button class="functionline2" title="x puissance 3"><strong><var>x<sup> 3</sup></var></strong></button>
+                <button class="functionline2" title="Logarithme en base 10"><strong>log</strong></button>
+                <button class="functionline2" title="Logarithme népérien"><strong>ln</strong></button>
+
+                <!--Troisième ligne Exp,ab/c,D°M'S,RCL,STO,M+-->
+                <button class="functionline3" title="Exponentielle" style="font-size: 11px;"><strong>Exp</strong></button>
+                <button class="functionline3" title="Affichage sous format fractionnaire"><strong><var>a<sup> b/c</sup></var></strong></button>
+                <button class="functionline3" title="Affichage sous format horaire {Heures,Minutes,Secondes}"><strong><var>D<sup>°</sup>M<sup>'</sup>S</var></strong></button>
+                <button class="functionline3" title="x puissance 3" style="color: rgba(30, 117, 30, 0.822); font-size: 12px;"><strong>RCL</strong></button>
+                <button class="functionline3" title="Affectation d'une valeur invariable" style="color: rgba(30, 117, 30, 0.822); font-size: 12px;"><strong>STO</strong></button>
+                <button class="functionline3" title="Logarithme népérien" style="color: rgba(30, 117, 30, 0.822); font-size: 12px;"><strong>M +</strong></button>
+            </div>
+
+            <!--Définition des blocs de boutons des touches numériques et des opérateurs -->
+            <div id="buttonnumeric">
+
+                        <!--Première ligne 7,8,9,(,)-->
+                <button class="numericline1" title="Touche 7" style="font-size: 22px;"><strong>7</strong></button>
+                <button class="numericline1" title="Touche 8" style="font-size: 22px;"><strong>8</strong></button>
+                <button class="numericline1" title="Touche 9" style="font-size: 22px;"><strong>9</strong></button>
+                <button class="numericline1" title="Parenthèse ouvrante" style="font-size: 18px;width:35px; height:25px; top: 239px;"><strong>(</strong></button>
+                <button class="numericline1" title="Parenthèse fermante" style="font-size: 18px;width:35px; height:25px; top: 239px;"><strong>)</strong></button>
+
+                      <!--Deuxième ligne 4,5,6,*,/-->
+                <button class="numericline2" title="Touche 4" style="font-size: 22px;"><strong>4</strong></button>
+                <button class="numericline2" title="Touche 5" style="font-size: 22px;"><strong>5</strong></button>
+                <button class="numericline2" title="Touche 6" style="font-size: 22px;"><strong>6</strong></button>
+                <button class="numericline2" title="Opérateur multiplication" style="font-size: 18px;width:35px; height:25px; top: 247px;"><strong>&#xD7; </strong></button> <!--&#xD7; &#215;-->
+                <button class="numericline2" title="Opérateur division" style="font-size: 18px;width:35px; height:25px; top: 247px;"><strong>&#xF7;</strong></button><!--&#xF7;  &#247;-->
+
+                     <!--Troisième ligne 1,2,3,+,- -->
+                <button class="numericline3" title="Touche 1" style="font-size: 22px;"><strong>1</strong></button>
+                <button class="numericline3" title="Touche 2" style="font-size: 22px;"><strong>2</strong></button>
+                <button class="numericline3" title="Touche 3" style="font-size: 22px;"><strong>3</strong></button>
+                <button class="numericline3" title="Opérateur addition" style="font-size: 18px;width:35px; height:25px; top: 255px;"><strong>+</strong></button>
+                <button class="numericline3" title="Opérateur soustraction" style="font-size: 18px;width:35px; height:25px; top: 255px;"><strong>-</strong></button>
+            
+                 <!--Quarième ligne 0,.,+/-,= -->
+                 <button class="numericline4" title="Touche 0" style="font-size: 22px;"><strong>0</strong></button>
+                 <button class="numericline4" title="virgule" style="font-size: 22px;"><strong>.</strong></button>
+                 <button class="numericline4" title="Affectation de signes aux réels" style="font-size: 22px;"><strong>+/-</strong></button>
+                 <button class="numericline4" title="Touche d'égalité" style="font-size: 18px;width:79px; height:25px; top: 263px;"><strong>=</strong></button> <!--&#xD7; &#215;-->
+                 
+            
+            </div>
        </div>
 
-       
-               
+           
 </body>
 </html>

@@ -1,11 +1,11 @@
 
 /*Zone entête*/
 #headingzone{
-    width: 310px;
+    width: 311px;
     height: 135px;
     position: absolute;
-    background: rgb(100, 160, 160) ;
-    left:303px;
+    background: rgb(147, 211, 211) ;
+    left:302px;
     top:43px;
     border-radius:20px 20px 35px 35px;
     cursor: pointer;
@@ -46,14 +46,16 @@ button{
 
 #calc_corpus{
     width:315px;
-    height:520px;
+    height:532px;
     position:absolute;
     left:298px;
     top:40px;
     border-radius:20px 20px 50px 50px;
     background:rgb(85, 97, 85);
-    border:3px inset rgb(31, 36, 31);
+    border:2px inset rgb(31, 36, 31);
     cursor: pointer;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
  
@@ -70,7 +72,7 @@ button{
     background: rgb(218, 87, 12);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #button2ndF:hover{
@@ -90,7 +92,7 @@ button{
     background: rgb(127, 143, 127);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonOnOff:hover{
@@ -101,7 +103,7 @@ button{
 #buttonAlpha{
     border-radius: 0px 12px 0px 12px;
     width: 53px;
-    height: 21px;
+    height: 23px;
     padding: 5px;
     left: 22px;
     top: 175px;
@@ -110,7 +112,7 @@ button{
     background: rgba(55, 155, 55, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonAlpha:hover{
@@ -121,7 +123,7 @@ button{
 #buttonMode{
     border-radius: 12px 0px 12px 0px;
     width: 53px;
-    height: 21px;
+    height: 23px;
     padding: 5px;
     left: 237px;
     top: 175px;
@@ -130,7 +132,7 @@ button{
     background: rgba(55, 63, 55, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonMode:hover{
@@ -148,7 +150,7 @@ button{
     position: relative;
     left: -57px;
     top: 147px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonUp:hover{
@@ -166,7 +168,7 @@ button{
     position: relative;
     left: -92px;
     top: 198px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonDown:hover{
@@ -184,7 +186,7 @@ button{
     position: absolute;
     left: 116px;
     top: 174px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonLeft:hover{
@@ -202,7 +204,7 @@ button{
     position: absolute;
     left: 171px;
     top: 174px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonRight:hover{
@@ -213,7 +215,7 @@ button{
 #buttonSetup{
     border-radius: 0px 50px 0px 50px;
     width: 53px;
-    height: 16px;
+    height: 19px;
     padding: 5px;
     left: 32px;
     top: 203px;
@@ -222,7 +224,7 @@ button{
     background: rgba(55, 63, 55, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonSetup:hover{
@@ -233,7 +235,7 @@ button{
 #buttonDel{
     border-radius: 50px 0px 50px 0px;
     width: 53px;
-    height: 16px;
+    height: 19px;
     padding: 5px;
     left: 228px;
     top: 203px;
@@ -242,7 +244,7 @@ button{
     background: rgba(55, 63, 55, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8px;
-    border:0px;
+    /*border:0px;*/
 }
 
 #buttonDel:hover{
@@ -274,4 +276,139 @@ button{
     border-radius: 5px 5px 5px 5px;
 }
 
-/*Zone2 -->Styles des boutons des fonctions prédéfinies {cos,sin,ln,tan,DRG,racince_carré,hyp,arctan,arccos,arcsin,log,...}
+/*Zone2 -->Styles des boutons des fonctions prédéfinies {cos,sin,ln,tan,DRG,racince_carré,hyp,arctan,arccos,arcsin,log,...}*/
+#buttonfunction button{
+    display: inline-block;
+}
+
+.functionline1{
+    border-radius: 5px;
+    width: 40px;
+    height: 18px;
+    margin: 2px;
+    padding-right: 8px;
+    left: 13px;
+    top: 214px;
+    color:white;
+    position: relative;
+    background: rgba(55, 63, 55, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    /*border:0px;*/
+    text-align: center;
+}
+
+#buttonfunction button:hover{
+    background-color:rgb(29, 34, 29);
+    color: white;
+    /*transition-duration: -100s;*/
+}
+
+.functionline2{
+    border-radius: 5px;
+    width: 40px;
+    height: 18px;
+    margin: 2px;
+    padding-right: 8px;
+    left: 13px;
+    top: 220px;
+    color:white;
+    position: relative;
+    background: rgba(55, 63, 55, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    /*border:0px;*/
+    text-align: center;
+}
+
+.functionline3{
+    border-radius: 5px;
+    width: 40px;
+    height: 18px;
+    margin: 2px;
+    padding-right: 8px;
+    left: 13px;
+    top: 226px;
+    color:white;
+    position: relative;
+    background: rgba(55, 63, 55, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    /*border:0px;*/
+    text-align: center;
+}
+
+/*Définition des blocs de boutons des touches numériques et des opérateurs (1,2,3,4,5,6,7,8,9,0,.,+,*,/,-(,)*/
+#buttonnumeric button:hover{
+    background-color:rgb(102, 112, 102);
+    color: white;
+    /*transition-duration: -100s;*/
+}
+
+.numericline1{
+    border-radius: 5px;
+    width: 56px;
+    height: 28px;
+    margin: 3px;
+    padding-right: 8px;
+    left: 13px;
+    top: 240px;
+    color:white;
+    position: relative;
+    background: rgba(188, 209, 188, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    /*border:0px;*/
+    text-align: center;
+}
+
+.numericline2{
+    border-radius: 5px;
+    width: 56px;
+    height: 28px;
+    margin: 3px;
+    padding-right: 8px;
+    left: 13px;
+    top: 248px;
+    color:white;
+    position: relative;
+    background: rgba(188, 209, 188, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    /*border:0px;*/
+    text-align: center;
+}
+
+.numericline3{
+    border-radius: 5px;
+    width: 56px;
+    height: 28px;
+    margin: 3px;
+    padding-right: 8px;
+    left: 13px;
+    top: 256px;
+    color:white;
+    position: relative;
+    background: rgba(188, 209, 188, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    /*border:0px;*/
+    text-align: center;
+}
+
+.numericline4{
+    border-radius: 5px;
+    width: 56px;
+    height: 28px;
+    margin: 3px;
+    padding-right: 8px;
+    left: 13px;
+    top: 264px;
+    color:white;
+    position: relative;
+    background: rgba(188, 209, 188, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    /*border:0px;*/
+    text-align: center;
+}
