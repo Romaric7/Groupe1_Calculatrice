@@ -1,0 +1,277 @@
+
+/*Zone entête*/
+#headingzone{
+    width: 310px;
+    height: 135px;
+    position: absolute;
+    background: rgb(100, 160, 160) ;
+    left:303px;
+    top:43px;
+    border-radius:20px 20px 35px 35px;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    /*transition-duration: -15s;*/
+}
+
+#headingzone span{
+    color:whitesmoke;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    top: 60px;
+}
+
+#resultzone{
+    width:280px;
+    height:74px;
+    position:absolute;
+    left:14px;
+    top:50px;
+    border-radius:8px 8px 8px 8px;
+    background-color:#63685f;
+    border-bottom:4px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#resultzone:hover{
+    width: 281px;
+    height: 75px;
+    background-color:#0a0a0a ;
+}
+
+#calc_corpus{
+    width:315px;
+    height:520px;
+    position:absolute;
+    left:298px;
+    top:40px;
+    border-radius:20px 20px 50px 50px;
+    background:rgb(85, 97, 85);
+    border:3px inset rgb(31, 36, 31);
+    cursor: pointer;
+}
+
+ 
+/*Zone1 des boutons de management de la calculatricce {2ndF,ALPHA,SETUP,ON/OFF,MODE,DEL,haut,bas,gauche,droite*/
+#button2ndF{
+    border-radius: 0px 120px 0px 120px;
+    width: 60px;
+    height: 25px;
+    padding: 5px;
+    left: -130px;
+    top: 140px;
+    color:white;
+    position: relative;
+    background: rgb(218, 87, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border:0px;
+}
+
+#button2ndF:hover{
+    background-color:rgb(218, 53, 12) ;
+    color: whitesmoke;
+}
+
+#buttonOnOff{
+    border-radius: 120px 0px 120px 0px;
+    width: 60px;
+    height: 25px;
+    padding: 5px;
+    left: 246px;
+    top: 144px;
+    color:rgb(192, 40, 2);
+    position: absolute;
+    background: rgb(127, 143, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border:0px;
+}
+
+#buttonOnOff:hover{
+    background-color:rgb(29, 34, 29);
+    color: rgb(218, 53, 12);
+}
+
+#buttonAlpha{
+    border-radius: 0px 12px 0px 12px;
+    width: 53px;
+    height: 21px;
+    padding: 5px;
+    left: 22px;
+    top: 175px;
+    color:white;
+    position: absolute;
+    background: rgba(55, 155, 55, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border:0px;
+}
+
+#buttonAlpha:hover{
+    background-color:rgb(6, 73, 6);
+    color: white;
+}
+
+#buttonMode{
+    border-radius: 12px 0px 12px 0px;
+    width: 53px;
+    height: 21px;
+    padding: 5px;
+    left: 237px;
+    top: 175px;
+    color:white;
+    position: absolute;
+    background: rgba(55, 63, 55, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border:0px;
+}
+
+#buttonMode:hover{
+    background-color:rgb(29, 34, 29);
+    color: white;
+}
+
+#buttonUp{
+    border-radius: 20px 20px 0px 0px;
+    bottom: 500px;
+    width: 31px;
+    height: 20px;
+    background:rgba(55, 63, 55, 0.822);
+    color: whitesmoke;
+    position: relative;
+    left: -57px;
+    top: 147px;
+    border:0px;
+}
+
+#buttonUp:hover{
+    background-color:rgb(226, 241, 226);
+    color: black;
+}
+
+#buttonDown{
+    border-radius: 0px 0px 20px 20px;
+    bottom: 500px;
+    width: 31px;
+    height: 20px;
+    background:rgba(55, 63, 55, 0.822);
+    color: whitesmoke;
+    position: relative;
+    left: -92px;
+    top: 198px;
+    border:0px;
+}
+
+#buttonDown:hover{
+    background-color:rgb(226, 241, 226);
+    color: black;
+}
+
+#buttonLeft{
+    border-radius: 20px 0px 0px 20px;
+    bottom: 500px;
+    width: 22px;
+    height: 30px;
+    background:rgba(55, 63, 55, 0.822);
+    color: whitesmoke;
+    position: absolute;
+    left: 116px;
+    top: 174px;
+    border:0px;
+}
+
+#buttonLeft:hover{
+    background-color:rgb(226, 241, 226);
+    color: black;
+}
+
+#buttonRight{
+    border-radius: 0px 20px 20px 0px;
+    bottom: 500px;
+    width: 22px;
+    height: 30px;
+    background:rgba(55, 63, 55, 0.822);
+    color: whitesmoke;
+    position: absolute;
+    left: 171px;
+    top: 174px;
+    border:0px;
+}
+
+#buttonRight:hover{
+    background-color:rgb(226, 241, 226);
+    color: black;
+}
+
+#buttonSetup{
+    border-radius: 0px 50px 0px 50px;
+    width: 53px;
+    height: 16px;
+    padding: 5px;
+    left: 32px;
+    top: 203px;
+    color:white;
+    position: absolute;
+    background: rgba(55, 63, 55, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    border:0px;
+}
+
+#buttonSetup:hover{
+    background-color:rgb(29, 34, 29);
+    color: white;
+}
+
+#buttonDel{
+    border-radius: 50px 0px 50px 0px;
+    width: 53px;
+    height: 16px;
+    padding: 5px;
+    left: 228px;
+    top: 203px;
+    color:white;
+    position: absolute;
+    background: rgba(55, 63, 55, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    border:0px;
+}
+
+#buttonDel:hover{
+    background-color:rgb(29, 34, 29);
+    color: white;
+}
+
+#logs{
+    position: absolute;
+    left: 139px;
+    top: 179px;
+    color: rgb(22, 20, 20);
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#logs:hover{
+    background: linear-gradient(rgba(55, 155, 55, 0.822),rgb(218, 87, 12));
+    color: rgb(15, 14, 14);
+}
+
+#calctype{
+    cursor: pointer;
+}
+
+#calctype:hover{
+    background: linear-gradient(rgba(20, 160, 20, 0.822),rgb(172, 48, 10));
+    color: rgb(15, 14, 14);
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*Zone2 -->Styles des boutons des fonctions prédéfinies {cos,sin,ln,tan,DRG,racince_carré,hyp,arctan,arccos,arcsin,log,...}
