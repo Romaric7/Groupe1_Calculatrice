@@ -49,9 +49,9 @@
                 <button class="functionline3" title="Exponentielle" style="font-size: 11px;"><strong>Exp</strong></button>
                 <button class="functionline3" title="Affichage sous format fractionnaire"><strong><var>a<sup> b/c</sup></var></strong></button>
                 <button class="functionline3" title="Affichage sous format horaire {Heures,Minutes,Secondes}"><strong><var>D<sup>°</sup>M<sup>'</sup>S</var></strong></button>
-                <button class="functionline3" title="x puissance 3" style="color: rgba(30, 117, 30, 0.822); font-size: 12px;"><strong>RCL</strong></button>
-                <button class="functionline3" title="Affectation d'une valeur invariable" style="color: rgba(30, 117, 30, 0.822); font-size: 12px;"><strong>STO</strong></button>
-                <button class="functionline3" title="Logarithme népérien" style="color: rgba(30, 117, 30, 0.822); font-size: 12px;"><strong>M +</strong></button>
+                <button class="functionline3" title="Mémorisation et de réutilisation de résultats" style="color: rgba(26, 165, 26, 0.822); font-size: 12px;"><strong>RCL</strong></button>
+                <button class="functionline3" title="Mode programmation:Stockage intervariables" style="color: rgba(26, 165, 26, 0.822); font-size: 12px;"><strong>STO</strong></button>
+                <button class="functionline3" title="Incrémentation de la mémoire par le résultat" style="color: rgba(26, 165, 26, 0.822); font-size: 12px;"><strong>M+</strong></button>
             </div>
 
             <!--Définition des blocs de boutons des touches numériques et des opérateurs -->
@@ -88,6 +88,73 @@
             </div>
 
                     <!--Marqueurs de touches-->
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 9px; border-radius: 3px;top: 142px; left: 206px; position: absolute; height: 11px; width: 38px;"><var>OFF</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 9px; border-radius: 3px;top: 165px; left: -7px; position: absolute; height: 11px; width: 38px;"><var>M-CLR</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 9px; border-radius: 3px;top: 165px; left: 230px; position: absolute; height: 11px; width: 38px;"><var>CA</var></span></strong>
+
+                    <strong><span style="color: white; font-size: 8px; position: absolute; top:198px; left: 1px;"><var>STAT VAR</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 9px; border-radius: 3px;top: 198px; left: 222px; position: absolute; height: 11px; width: 38px;"><var>INS</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 230px; left: -14px; position: absolute; height: 11px; width: 40px;"><var>arc&nbsp;hyp</var></span></strong>
+
+                    <strong><span style="color: white; font-size: 10px; position: absolute; top:231px; left: 24px;"><var>NOT</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 228px; left: 47px; position: absolute; height: 11px; width: 40px;"><var>sin<sup> -1</sup></var></span></strong>
+
+                    <strong><span style="color: white; font-size: 10px; position: absolute; top:230px; left: 71px;"><var>AND</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 228px; left: 93px; position: absolute; height: 11px; width: 40px;"><var>cos<sup> -1</sup></var></span></strong>
+
+                    <strong><span style="color: white; font-size: 10px; position: absolute; top:230px; left: 120px;"><var>OR</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 228px; left: 138px; position: absolute; height: 11px; width: 40px;"><var>tan<sup> -1</sup></var></span></strong>
+
+                    <strong><span style="color: white; font-size: 10px; position: absolute; top:230px; left: 164px;"><var>XOR</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 230px; left: 190px; position: absolute; height: 11px; width: 40px;">DRG<i class="fa fa-caret-right"></i></var></span></strong>
+
+                    <strong><span style="color: white; font-size: 10px; position: absolute; top:230px; left: 216px;"><var>XNOR</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 11px; border-radius: 3px;top: 258px; left: -8px; position: absolute; height: 11px; width: 36px;"><var>x<sub><math><msqrt><mn></mn></msqrt></math></sub></var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:260px; left: 20px;"><var>A</var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:260px; left: 68px;"><var>B</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 11px; border-radius: 3px;top: 259px; left: 92px; position: absolute; height: 11px; width: 36px;"><var>x!</var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:259px; left: 115px;"><var>C</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 259px; left: 133px; position: absolute; height: 11px; width: 36px;"><var>3<sub><math><msqrt><mn></mn></msqrt></math></sub></var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:260px; left: 164px;"><var>D</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 259px; left: 183px; position: absolute; height: 11px; width: 36px;"><var>10<sup> x</sup></var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:260px; left: 212px;"><var>E</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 258px; left: 230px; position: absolute; height: 11px; width: 36px;"><var>e<sup> x</sup></var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:260px; left: 260px;"><var>F</var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 12px; position: absolute; top:286px; left: -8px;"><i class="fa fa-long-arrow-left"></i> , <i class="fa fa-long-arrow-right"></i></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 11px; border-radius: 3px;top: 288px; left: 50px; position: absolute; height: 11px; width: 36px;"><var>d /c</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 289px; left: 88px; position: absolute; height: 11px; width: 36px;"><var><i class="fa fa-arrows-h">DEG</i> </var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 11px; position: absolute; top:288px; left: 160px;"><var>X</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 13px; border-radius: 3px;top: 283px; left: 182px; position: absolute; height: 11px; width: 36px;"><var>,</var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 11px; position: absolute; top:288px; left: 210px;"><var>Y</var></span></strong>
+
+                    <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 288px; left: 229px; position: absolute; height: 11px; width: 36px;"><var>M-</var></span></strong>
+
+                    <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:288px; left: 257px;"><var>M</var></span></strong>
 
                     <strong><span style="color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 325px; left: -12px; position: absolute; height: 11px; width: 36px;"><var>RANDOM</var></span></strong>
 
@@ -147,9 +214,9 @@
 
                 <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 12px; position: absolute; top:368px; left: 264px;">r</span></strong>
 
-            <strong><span style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 415px; left: 181px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>DEC</span></strong>
+            <strong><span style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 414px; left: 181px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>DEC</span></strong>
 
-            <strong><span style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 415px; left: 229px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>OCT</span></strong>
+            <strong><span style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 414px; left: 229px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>OCT</span></strong>
 
             <strong><span style="color: rgb(210, 207, 30); font-size: 11px; border-radius: 3px;top: 453px; left: -13px; position: absolute; height: 11px; width: 36px;">MDF</span></strong>
 
@@ -159,15 +226,31 @@
 
             <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:451px; left: 158px;"><var style="font-size: 11px;">&#8721;x<sup>2</sup></var></span></strong>
 
-            <span style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 458px; left: 183px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>PEN</span>
+            <span style="color: rgb(36, 35, 35);background-color: rgb(210, 207, 30); font-size: 10px; border-radius: 3px;top: 457px; left: 183px; position: absolute; height: 11px; width: 36px;">&nbsp;<i class="fa fa-arrow-right"></i>PEN</span>
 
-            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:458px; left: 237px;">ANS</span></strong>
+            <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 10px; position: absolute; top:457px; left: 237px;">ANS</span></strong>
+
+            <strong><span style="color: white; font-size: 11px; position: absolute; top:492px; left: 125px;">|</span></strong>
+
+            <strong><span style="color: white; font-size: 11px; position: absolute; top:492px; left: 126px;">_</span></strong>
+
+            <strong><span style="color: white; font-size: 11px; position: absolute; top:492px; left: 168px;">_</span></strong>
+
+            <strong><span style="color: white; font-size: 11px; position: absolute; top:492px; left: 172px; border: 2px;">|</span></strong>
+
+            <strong><span style="color: white; font-size: 12px; position: absolute; top:496px; left: 132px; border: 2px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">NEG(-)</span>
+
+                <strong><span style="color: white; font-size: 11px; position: absolute; top:492px; left: 209px;">|</span></strong>
+
+                <strong><span style="color: white; font-size: 11px; position: absolute; top:492px; left: 210px;">_</span></strong>
+
+                <strong><span style="color: white; font-size: 11px; position: absolute; top:492px; left: 237px;">_</span></strong>
+
+                <strong><span style="color: white; font-size: 11px; position: absolute; top:492px; left: 241px;">|</span></strong>
+
+                <strong><span style="color: white; font-size: 12px; position: absolute; top:496px; left: 216px; border: 2px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">ENT</span>
        </div>
 
-       <strong><span style="color: rgba(35, 211, 35, 0.822); font-size: 12px; position: absolute; top:368px; left: 264px;"><var style="font-size: 12px;">DATA</var></span></strong>
+    </body>
 
-       <strong><span style="color: rgb(210, 207, 30); font-size: 12px; border-radius: 3px;top: 458px; left: 183px; position: absolute; height: 11px; width: 36px;"><var>y'</i></var></span></strong>
-       
-       <strong><span style="color: white; font-size: 12px; position: absolute; top:368px; left: 264px;"><var style="font-size: 12px;">DATA</var></span></strong>
-</body>
 </html>

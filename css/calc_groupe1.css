@@ -46,7 +46,7 @@ button{
 
 #calc_corpus{
     width:315px;
-    height:532px;
+    height:524px;
     position:absolute;
     left:298px;
     top:40px;
@@ -66,7 +66,7 @@ button{
     height: 25px;
     padding: 5px;
     left: -130px;
-    top: 140px;
+    top: 138px;
     color:white;
     position: relative;
     background: rgb(218, 87, 12);
@@ -86,7 +86,7 @@ button{
     height: 25px;
     padding: 5px;
     left: 246px;
-    top: 144px;
+    top: 141px;
     color:rgb(192, 40, 2);
     position: absolute;
     background: rgb(127, 143, 127);
@@ -218,7 +218,7 @@ button{
     height: 19px;
     padding: 5px;
     left: 32px;
-    top: 203px;
+    top: 208px;
     color:white;
     position: absolute;
     background: rgba(55, 63, 55, 0.822);
@@ -238,7 +238,7 @@ button{
     height: 19px;
     padding: 5px;
     left: 228px;
-    top: 203px;
+    top: 208px;
     color:white;
     position: absolute;
     background: rgba(55, 63, 55, 0.822);
