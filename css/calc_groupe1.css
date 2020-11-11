@@ -4,7 +4,7 @@
     width: 311px;
     height: 135px;
     position: absolute;
-    background: rgb(147, 211, 211) ;
+    background: rgb(161, 224, 224) ;
     left:302px;
     top:43px;
     border-radius:20px 20px 35px 35px;
@@ -51,7 +51,7 @@ button{
     left:298px;
     top:40px;
     border-radius:20px 20px 50px 50px;
-    background:rgb(85, 97, 85);
+    background:rgb(65, 75, 65);
     border:2px inset rgb(31, 36, 31);
     cursor: pointer;
     border-top-right-radius: 25px;
