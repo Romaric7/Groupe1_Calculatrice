@@ -3,10 +3,10 @@
 #headingzone{
     width: 311px;
     height: 135px;
-    position: absolute;
+    position: relative;
     background: rgb(161, 224, 224) ;
-    left:302px;
-    top:43px;
+    left:2px;
+    top:1px;
     border-radius:20px 20px 35px 35px;
     cursor: pointer;
 }
@@ -42,6 +42,7 @@ button{
     width: 281px;
     height: 75px;
     background-color:#0a0a0a ;
+    color: white;
 }
 
 #calc_corpus{
