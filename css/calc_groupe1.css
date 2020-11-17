@@ -1,7 +1,7 @@
 
 /*Zone entête*/
 #headingzone{
-    width: 311px;
+    width: 316px;
     height: 135px;
     position: relative;
     background: rgb(161, 224, 224) ;
@@ -46,7 +46,7 @@ button{
 }
 
 #calc_corpus{
-    width:315px;
+    width:320px;
     height:524px;
     position:absolute;
     left:298px;
@@ -57,6 +57,7 @@ button{
     cursor: pointer;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    
 }
 
  
@@ -66,8 +67,8 @@ button{
     width: 60px;
     height: 25px;
     padding: 5px;
-    left: -130px;
-    top: 138px;
+    left: 8px;
+    top: -75px;
     color:white;
     position: relative;
     background: rgb(218, 87, 12);
@@ -149,8 +150,8 @@ button{
     background:rgba(55, 63, 55, 0.822);
     color: whitesmoke;
     position: relative;
-    left: -57px;
-    top: 147px;
+    left: 76px;
+    top: -6px;
     /*border:0px;*/
 }
 
@@ -167,8 +168,8 @@ button{
     background:rgba(55, 63, 55, 0.822);
     color: whitesmoke;
     position: relative;
-    left: -92px;
-    top: 198px;
+    left: 41px;
+    top: -16px;
     /*border:0px;*/
 }
 
@@ -278,11 +279,29 @@ button{
 }
 
 /*Zone2 -->Styles des boutons des fonctions prédéfinies {cos,sin,ln,tan,DRG,racince_carré,hyp,arctan,arccos,arcsin,log,...}*/
-#buttonfunction button{
-    display: inline-block;
+#buttonfunction{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(65, 75, 65);
+    top:-15px;
+    margin: 10px;
+    padding: ;
 }
 
-.functionline1{
+.functionline{
+    border-radius: 5px;
+    width: 42px;
+    height: 18px;
+    background: rgba(55, 63, 55, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    text-align: center;
+    margin: 3px;
+    color: white;
+    margin-left: 5px;
+}
+/*.functionline1{
     border-radius: 5px;
     width: 40px;
     height: 18px;
@@ -295,9 +314,9 @@ button{
     background: rgba(55, 63, 55, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9px;
-    /*border:0px;*/
+    border:0px;
     text-align: center;
-}
+}*/
 
 #buttonfunction button:hover{
     background-color:rgb(29, 34, 29);
@@ -305,7 +324,7 @@ button{
     /*transition-duration: -100s;*/
 }
 
-.functionline2{
+/*.functionline2{
     border-radius: 5px;
     width: 40px;
     height: 18px;
@@ -318,11 +337,11 @@ button{
     background: rgba(55, 63, 55, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9px;
-    /*border:0px;*/
+    border:0px;
     text-align: center;
-}
+}*/
 
-.functionline3{
+/*.functionline3{
     border-radius: 5px;
     width: 40px;
     height: 18px;
@@ -335,9 +354,9 @@ button{
     background: rgba(55, 63, 55, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9px;
-    /*border:0px;*/
+    border:0px;
     text-align: center;
-}
+}*/
 
 /*Définition des blocs de boutons des touches numériques et des opérateurs (1,2,3,4,5,6,7,8,9,0,.,+,*,/,-(,)*/
 #buttonnumeric button:hover{
