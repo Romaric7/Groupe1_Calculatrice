@@ -154,7 +154,7 @@ span{
     background:rgba(55, 63, 55, 0.822);
     color: whitesmoke;
     position: relative;
-    left: 80px;
+    left: 83px;
     top: -54px;
     /*border:0px;*/
 }
@@ -172,7 +172,7 @@ span{
     background:rgba(55, 63, 55, 0.822);
     color: whitesmoke;
     position: relative;
-    left: 45px;
+    left: 48px;
     top: -5px;
     /*border:0px;*/
 }
@@ -190,7 +190,7 @@ span{
     background:rgba(55, 63, 55, 0.822);
     color: whitesmoke;
     position: absolute;
-    left: 121px;
+    left: 124px;
     top: 174px;
     /*border:0px;*/
 }
@@ -208,7 +208,7 @@ span{
     background:rgba(55, 63, 55, 0.822);
     color: whitesmoke;
     position: absolute;
-    left: 175px;
+    left: 178px;
     top: 174px;
     /*border:0px;*/
 }
@@ -260,7 +260,7 @@ span{
 
 #logs{
     position: absolute;
-    left: 143px;
+    left: 146px;
     top: 180px;
     color: rgb(22, 20, 20);
     cursor: pointer;
