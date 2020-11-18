@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/calc_groupe1.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Calculatrice--Scientifique--GroupeI</title>
+    <script src="animate/jquery-2.1.1/jquery.min.js"></script>
 </head>
 <body>
     <!--Corps principal de la calculatrice-->
@@ -13,7 +14,7 @@
        <div id="headingzone">
            <span id="calctype"><i class="fa fa-modx"></i> SHARP</span>
            <div id="resultzone" title="Zone d'affichage">
-              &nbsp;<i class="fa fa-superscript"><span id="title" style="top:200px;font-size: 18px;color: white;margin-left: 12px;">CALCULATRICE GROUPE I</span></i>
+              &nbsp;<i><i class="fa fa-superscript"><span id="title" style="top:200px;font-size: 18px;color: white;margin-left: 12px;">CALCULATRICE GROUPE I</span></i>
         </div>
        </div>
        <div style="width: 315px; height: 70px; background-color: rgb(65, 75, 65)">
@@ -272,6 +273,30 @@
        </div>
        
     </div>  
+
+    <!--Capot de la calculatrice-->
+    <div id="calc_hood" title="Capot de la calculatrice SHARP">
+        <i><span style="left:25px; position:absolute;top: 229px; font-size: 20px; color: white;"><i class="fa fa-modx fa-3x" style="color: rgb(86, 230, 255);"></i><br /> GROUP I SHARP<br />CALCULATOR</span></i>
+
+        <i><span style="color: aliceblue; top:475px; position: absolute; font-size: 20px;left: 45px;"><i class="fa fa-globe fa-2x" style="color: rgb(86, 230, 255);"></i> "WEB IS DEV..."</span></i><!--fa-rebel-->
+    </div>
+
+    <img src="img/undraw_Calculator_0evy.png" style="width: 200px; height: 140px; position: absolute; left: 1020px; top: 400px; border-radius: 600px; border:6px inset rgb(64, 215, 241);" >
+
+    <!--Animations de basculement du couvercle de notre calculatrice00 (ouverture && fermeture)-->
+    <script>
+     /*Script d'ouverture du capot*/
+    $("#calc_hood").mouseenter(function(){
+       /* $("#calc_hood").fadeOut(1500);*/
+       $("#calc_hood").animate({left: '632px'});  
+    });
+
+  /*Script de fermeture de l'interface de la calculatrice par le capot*/
+    $("#calc_hood").click(function(){
+       /* $("#calc_hood").fadeOut(1500);*/
+       $("#calc_hood").animate({left: '300px'});   
+    });
+    </script>
 
     </body>
 
